@@ -1,0 +1,1 @@
+{"identifier":"main","description":"Local family tree files selected by the user","windows":["main"],"permissions":["core:default","core:window:allow-destroy","dialog:allow-open","dialog:allow-save","dialog:allow-confirm","fs:allow-read-text-file","fs:allow-write-text-file","fs:allow-read-file","fs:allow-write-file"]}

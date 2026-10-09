@@ -1,0 +1,9 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Sims4 Roots",
+  "version": "0.1.0",
+  "identifier": "com.sims4roots.desktop",
+  "build": { "beforeDevCommand": "npm.cmd run dev", "devUrl": "http://127.0.0.1:1420", "beforeBuildCommand": "npm.cmd run build", "frontendDist": "../dist" },
+  "app": { "windows": [], "security": { "csp": "default-src 'self'; img-src 'self' data: blob:; style-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src 'self' ipc: http://ipc.localhost; script-src 'self'" } },
+  "bundle": { "active": false, "icon": ["icons/icon.ico", "icons/icon.png"] }
+}
